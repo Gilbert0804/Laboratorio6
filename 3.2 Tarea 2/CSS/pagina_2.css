@@ -1,12 +1,8 @@
 body{
-    background-color: rgb(53, 59, 65);
+    background-color: rgb(33, 35, 36);
     color: white;
 }
 
-#ah{
-    color: rgb(255, 255, 255);
-}
-
-#ah2{
-    color: rgb(100, 135, 144);
+.nav-link, h1{
+    font-family: 'Roboto', sans-serif;
 }

@@ -1,20 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/pagina_1.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/pagina_1.css" />
     <title>Pagina 1</title>
-</head>
-<body>
-    <h1>Pagina 1</h1> <br>
-    <nav>
-        <a href="index.html" id="ah">Index</a>|
-        <a href="Pagina_1.html" id="ah1">Pagina 1</a>|
-        <a href="Pagina_2.html" id="ah">Pagina 2</a>|
-        <a href="Pagina_3.html" id="ah">Pagina 3</a>
-    </nav>
+  </head>
+  <body>
     
-</body>
+    
+    <div id="nav" class="container-fluid">
+      <h1>Pets <span class="material-icons">&#xe91d;</span></h1>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Pagina_1.html">Pagina 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Pagina_2.html">Pagina 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Pagina_3.html">Pagina 3</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="pics" class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <br><h1 class="display-2">Beagle</h1>  
+                    <img src="https://www.eluniverso.com/resizer/y4Scc_nzI4QX7pgXMIhZpiIGBkg=/1190x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/YKYSZKHYV5FOFJCC3ZFY42ABYE.jpg" 
+                    class="d-block img-fluid"  alt="beagle">
+                    <p id="beagle">Esos animales que desboradan ternura son los cachorros, pequeños, juguetones y<br> 
+                    muy adorables. Para los amantes de la ternura, hay razas de perro en las que el can<br> 
+                    siempre parece como si fuera un cachorro.<br>
+                    <br>
+                    Estas son las más populares y las que, además, se pueden adaptar mejor a vivir<br>
+                    en familia y en pequeño departamento.<br>
+                    <br>
+                    Las raza es una de las más populares. Esto es debido a su angelical aspecto físico y su<br>
+                    carácter. Es un animal lleno de vitalidad y ganas de jugar. Sus grandes ojos marrones<br>
+                    y sus orejas péndulas podrían derretir a cualquiera. Su talla es de entre 33 y 40 cm.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <br><h1 class="display-2">Husky siberiano</h1>
+                    <img src="https://t2.ea.ltmcdn.com/es/posts/5/0/2/1_husky_siberiano_23205_0_600.webp" 
+                    class="d-block img-fluid" alt="husky siberiano">
+                    <p>
+                        Originario de Rusia, el husky siberiano fue utilizado durante mucho tiempo como perro de trabajo, 
+                        especialmente para transportar a las personas en trineos. Su apariencia similar a la del lobo, de cuerpo fuerte, 
+                        musculoso y ojos azules o de cada color, <br>
+                        acompañado de su abundante pelaje, lo han convertido en una de las razas favoritas de los amantes de los perros. 
+                        Como mascotas necesitan actividad física regular, y son propensos a 
+                        ciertas enfermedades, como las cataratas, la epilepsia y las deformaciones de la columna.
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <br><h1 class="display-2">Akita</h1>
+                    <img src="https://www.eluniverso.com/resizer/eyyHgZdgA3ZjgdM0V-7VsuiC8Dc=/1006x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/3JOT23QQA5FXBOEPI2B4CUJIVE.jpg"
+                     class="d-block img-fluid" alt="Akita">
+                    <p>
+                        Quién no recuerda a Hachiko, el perro japonés que esperó a su dueño hasta morir. <br>
+                        Este perrito era de raza Akita, una de las razas más costosas del mundo.
+                        Hay dos tipos de Akita, el americano y el japonés como el famoso Hachiko. <br>
+                        Y es que la moda es un elemento clave a la hora de establecer el precio de una raza de perros.<br>
+                        También se lo conoce con el nombre de Gran Perro Japonés y es realmente muy dulce y cariñoso. Es un compañero de juegos ideal para los niños y es muy protector con la familia.<br>
+                        Uno de estos puede llegar a costar internacionalmente alrededor de los 4 000 euros. En Ecuador su precio oscila entre los $300 y $350 en páginas comerciales como mercado libre.
+
+
+                    </p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

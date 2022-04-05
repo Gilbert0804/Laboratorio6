@@ -1,12 +1,8 @@
-body{
-    background-color: rgb(53, 59, 65);
-    color: white;
+p{
+    font-family: 'Lobster', cursive;
 }
 
-#ah{
-    color: rgb(255, 255, 255);
-}
-
-#ah1{
-    color: rgb(100, 135, 144);
+img{
+    height: 500px;
+    width: 800px;
 }
